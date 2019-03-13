@@ -14,6 +14,11 @@
 			function playSadTrombone() {
 				var audio = new Audio('/asset/audio/sad-trombone.mp3');
 				audio.play();
+
+				gtag('event', 'Audio', {
+					'event_category': 'Play',
+					'event_label': 'Sad Trombone'
+				});
 			}
 		</script>
 		<meta charset="utf-8">
