@@ -10,6 +10,12 @@
 
 			gtag('config', 'UA-136138628-1');
 		</script>
+		<script>
+			function playSadTrombone() {
+				var audio = new Audio('/asset/audio/sad-trombone.mp3');
+				audio.play();
+			}
+		</script>
 		<meta charset="utf-8">
 		<meta name="description" content="Someone in the house tell a bad joke? Want to annoy your partner? Hit them with a perfectly timed sad trombone sound effect! You know the one, Wah Wah Wah Wah! Just like in the cartoons and movies! Sad Trombone is a one trick pony. Perfect for every occasion.">
 		<meta name="author" content="Mathias Schilling">
@@ -36,7 +42,7 @@
 				</div>
 				<a class="primary-btn app-store-btn" href="#">Coming soon on the App Store</a>
 			</div>
-			<div class="responsive iphone">
+			<div onclick="playSadTrombone()" class="responsive iphone">
 				<div class="iphone-screenshot">
 					<img src="/asset/image/app-screenshot.png" alt="Sad Trombone - App screenshot">
 				</div>
